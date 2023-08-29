@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style/style.css">
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-box">
+        <div class="inside-box">
+          <div class="code">
+            <h1>Temperature Converter</h1>
+          </div>
+          <div class="container">
+            <div class="select-container">
+              <select name="#" id="selected">
+                <option value="celsiusToFahrenheit">Celsius to Fahrenheit</option>
+                <option value="fahrenheitToCelsius">Fahrenheit to Celsius</option>
+                <option value="kelvinToCelsius">Kelvin to Celsius</option>
+                <option value="celsiusToKelvin">Celsius to Kelvin</option>
+                <option value="kelvinToFahrenheit">Kelvin to Fahrenheit</option>
+                <option value="fahrenheitToKelvin">Fahrenheit to Kelvin</option>
+              </select>
+            </div>
+            <div class="input-container">
+              <input type="number" id="firstInput">
+              <span id="equal-to">=</span>
+              <input type="number" id="secondInput" readonly>
+            </div>
+          </div>
+          <div id="results">
+            <div class="formula">Formula</div>
+            <div id="result">( <b>°C</b> × 9/5) + 32 = <b>°F</b>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/app.js"></script>
+  </body>
+</html>

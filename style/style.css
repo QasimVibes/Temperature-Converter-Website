@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  transition: 5s;
+}
+.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-box {
+  background-color: white;
+  border-radius: 9px;
+  height: 300px;
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px 10px;
+}
+.inside-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.code {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: black;
+  align-items: center;
+}
+
+#selected {
+  display: block;
+  margin-block: 20px;
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+}
+
+#numberinput {
+  height: 100%;
+  width: 100%;
+}
+
+#firstInput {
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+#secondInput {
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+#equal-to {
+  font-size: 20px;
+}
+#result {
+  padding: 0px 3px;
+  display: inline;
+}
+.formula {
+  height: 15px;
+  font-size: 12px;
+  padding: 1px 3px 1.5px 3px;
+  color: #fff;
+  background-color: #f9ab00;
+  border-radius: 2px;
+  width: 47px;
+  display: inline;
+}
+#results {
+  margin: 20px 0px;
+}
+@media (max-width: 650px) {
+  .code h1 {
+    font-size: 26px;
+    margin: 30px 20px 0 20px;
+    text-align: center;
+  }
+  .container {
+    text-align: center;
+    margin: 8px 20px;
+  }
+
+  .select-container {
+    margin-bottom: 10px;
+  }
+  input[type="number"] {
+    width: 100%;
+  }
+
+  .input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #results {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
