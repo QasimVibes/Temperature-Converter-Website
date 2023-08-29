@@ -111,6 +111,10 @@ body {
   }
   .formula {
     height: 15px;
-    font-size: 10px;
+    font-size: 12px;
+    margin-right: 10px;
+  }
+  #result{
+    font-size: 15px;
   }
 }
