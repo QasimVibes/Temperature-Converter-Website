@@ -110,7 +110,10 @@ body {
     justify-content: center;
   }
   .formula {
-    align-items: center;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+
   }
   #result{
     font-size: 15px;
