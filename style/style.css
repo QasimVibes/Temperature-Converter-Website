@@ -109,11 +109,9 @@ body {
     align-items: center;
     justify-content: center;
   }
-  /* .formula {
-    height: 15px;
-    font-size: 12px;
-    width: 4px;
-  } */
+  .formula {
+    align-items: center;
+  }
   #result{
     font-size: 15px;
   }
